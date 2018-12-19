@@ -1,11 +1,80 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
-    <link rel="shortcut icon" href="./static/imgs/bitbug_favicon.ico" />
+    <link rel="shortcut icon" href="./static/imgs/grzy_tab.ico"/>
     <title>Levi Moon</title>
-  </head>
-  <body>
-    <div id="app">dddddddddddddddddddddddddddd</div>
-  </body>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./static/css/index.css">
+</head>
+<body>
+<div class="page-head" id="pageHead">
+    <!-- 头部部分-->
+    <a class="navbar-brand" href="#pageHead" style="padding: 5px 15px;">
+        <img src="static/imgs/grzy_tb.png" style="width: 40px; height: 40px;" class="img-circle">
+    </a>
+    <ul class="page-head-menu">
+        <li><a href="#">SELF PROFILES</a></li>
+        <li><a href="#">MY PROJECT</a></li>
+        <li><a href="#">SHOW</a></li>
+    </ul>
+</div>
+
+<div class="page-body">
+    <div class="container-fluid">
+        <!-- 主题部分-->
+        <div class="space-area"></div>
+        <div class="row">
+            <div class="col-xs-12 col-md-6" style="margin-bottom: 10px;">
+                <h3 style="padding: 0 10px;"><a>爬虫后台管理系统</a></h3>
+                <div class="row">
+                    <div class="col-xs-5 col-md-5">
+                        <img src="static/imgs/grzy_tb.png" alt="..." class="img-rounded"
+                             style="width: 250px;height: 250px;">
+                    </div>
+                    <div class="col-xs-7 col-md-7" style="padding: 10px;">
+                        <p>select srf.id as fjId, srf.fjmc, srf.fjcclj, srf.fjkzm
+                            from sy_rwxx_fj srf
+                            right join sy_rwxx sr
+                            on sr.rwbh = srf.rwbh
+                            where sr.del_flag = '0'
+                            and srf.del_flag = '0'
+                            and sr.id = 'e3f51d739ab6422db3fafb4cbf510e4f'</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6" style="margin-bottom: 10px;">
+                <h3 style="padding: 0 10px;"><a>levi的音乐盒</a></h3>
+                <div class="row">
+                    <div class="col-xs-5 col-md-5">
+                        <img src="static/imgs/grzy_tb.png" alt="..." class="img-rounded"
+                             style="width: 250px;height: 250px;">
+                    </div>
+                    <div class="col-xs-7 col-md-7" style="padding: 10px;">
+                        <p>select srf.id as fjId, srf.fjmc, srf.fjcclj, srf.fjkzm
+                            from sy_rwxx_fj srf
+                            right join sy_rwxx sr
+                            on sr.rwbh = srf.rwbh
+                            where sr.del_flag = '0'
+                            and srf.del_flag = '0'
+                            and sr.id = 'e3f51d739ab6422db3fafb4cbf510e4f'</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page-foot">
+    <!-- 脚部部分-->
+    <p>jlksd fj激烈的交锋代理绝对数量接口连接
+        点击份都是垃圾手机k；
+        点卡积分三菱电机了；
+    </p>
+</div>
+</body>
 </html>

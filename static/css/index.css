@@ -1,0 +1,37 @@
+body{
+    background: url("../imgs/1.jpg") no-repeat;
+    background-attachment: fixed
+}
+
+.page-head{
+    height: 50px;
+    width: 100%;
+    background: gray;
+}
+
+.page-head-menu{
+    list-style: none;
+    font-size: 16px;
+}
+
+.page-head-menu li{
+    float: left;
+    line-height: 50px;
+    padding: 0 15px;
+}
+.page-head-menu li a{
+    color: black;
+}
+
+.space-area{
+    height: 20px;
+    width: 100%;
+}
+
+.project-images{
+    float: left;
+}
+
+.project-produce{
+    float: right;
+}
